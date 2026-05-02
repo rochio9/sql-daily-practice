@@ -1,0 +1,21 @@
+# Editores
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Datos locales / dumps
+*.db
+*.sqlite
+*.sqlite3
+*.dump
+data/
+
+# Entornos
+.env
+.venv/
+__pycache__/
