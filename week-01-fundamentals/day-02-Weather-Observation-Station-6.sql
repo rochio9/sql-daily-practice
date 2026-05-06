@@ -1,7 +1,21 @@
+-- =============================================================
+-- Ejercicio: Weather Observation Station 6
+-- Plataforma: HackerRank (Easy)
+-- URL: https://www.hackerrank.com/challenges/revising-the-select-query/problem
+-- Fecha: 2026-05-05
+-- =============================================================
+
+-- Enunciado:
 -- Query the list of CITY names starting with vowels 
 -- (i.e., a, e, i, o, or u) from STATION. Your result cannot 
 -- contain duplicates.
 
+-- Schema:
+-- STATION(ID, CITY, STATE, LAT_N, LONG_W)
+
+-- =============================================================
+-- Solución (MySQL)
+-- =============================================================
 SELECT DISTINCT CITY FROM STATION WHERE LEFT(CITY,1) IN ('A','E','I','O','U');
 
 -- Existen múltiples formas de resolver este ejercicio:
