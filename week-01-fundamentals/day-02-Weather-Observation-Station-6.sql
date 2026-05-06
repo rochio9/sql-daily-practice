@@ -22,3 +22,6 @@ SELECT DISTINCT CITY FROM STATION WHERE LEFT(CITY,1) IN ('A','E','I','O','U');
 -- 1. Usando LIKE con 5 condiciones (fuerza bruta)
 -- 2. Usando LEFT() para obtener la primera letra y luego IN() para comparar (forma intuitiva)
 -- 3. Usando SUBSTR() para obtener la primera letra y luego IN() para comparar (similar a LEFT() pero más general)
+-- 4. Con REGEXP solución más limpia, se muestra a continuación:
+
+SELECT DISTINCT CITY FROM STATION WHERE CITY REGEXP '^[AEIOU]';
