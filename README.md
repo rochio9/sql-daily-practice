@@ -1,7 +1,6 @@
 # SQL Daily Practice
 
 Soluciones a ejercicios diarios de SQL (HackerRank, LeetCode, StrataScratch).
-Plan de 30 días enfocado en preparación de entrevistas para roles de Data Science / Analytics Engineering.
 
 ## Estructura
 
@@ -14,7 +13,7 @@ Plan de 30 días enfocado en preparación de entrevistas para roles de Data Scie
 ## Convenciones
 
 - Un archivo `.sql` por ejercicio: `day-NN-slug-del-problema.sql`.
-- Cabecera con metadata (URL, plataforma, dificultad, tiempo).
+- Cabecera con metadata (URL, plataforma, dificultad).
 - Comentarios sobre decisiones técnicas y alternativas consideradas.
 - Dialecto por defecto: PostgreSQL. Dialectos alternativos marcados explícitamente.
 
