@@ -20,7 +20,7 @@ Plan de 30 días enfocado en preparación de entrevistas para roles de Data Scie
 
 ## Progreso
 
-- [ ] Semana 1
+- [X] Semana 1
 - [ ] Semana 2
 - [ ] Semana 3
 - [ ] Semana 4
