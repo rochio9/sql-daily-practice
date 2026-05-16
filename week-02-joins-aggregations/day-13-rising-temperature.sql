@@ -25,8 +25,9 @@
 -- =============================================================
 -- Solución (MySQL)
 -- =============================================================
--- Se resuelve con un LEFT JOIN entre las tablas Employees y EmployeeUNI, 
--- utilizando la columna id como clave de unión.
+-- Se resuelve con un JOIN en la tabla Weather 
+-- utilizando una condición que permite unir el día de hoy con el 
+-- día anterior.
 SELECT A.id 
 FROM Weather A Join Weather B 
 ON B.recordDate= subdate(A.recordDate, 1) 
