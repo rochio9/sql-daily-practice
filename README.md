@@ -20,6 +20,6 @@ Soluciones a ejercicios diarios de SQL (HackerRank, LeetCode, StrataScratch).
 ## Progreso
 
 - [X] Semana 1
-- [ ] Semana 2
+- [X] Semana 2
 - [ ] Semana 3
 - [ ] Semana 4
