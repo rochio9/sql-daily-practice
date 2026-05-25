@@ -57,7 +57,7 @@ FROM
     WHERE
         A.event_date= DATE_ADD(B.first_log , INTERVAL 1 DAY)) C;
 
-Pero podía ser optimizada como sige:
+-- Pero podía ser optimizada como sige:
 SELECT
     ROUND(
         COUNT(DISTINCT A.player_id) /
@@ -73,3 +73,5 @@ JOIN (
 ) B
 ON A.player_id = B.player_id
 AND A.event_date = B.first_login + INTERVAL 1 DAY;
+-- De est forma se elimina una de las subconsultas.
+-- Se considerará para futuros ejercicios.
